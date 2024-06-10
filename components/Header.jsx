@@ -11,7 +11,7 @@ const Header = () => {
         {/* logo */}
         <Link href="/">
             <h1 className="text-4xl font-semibold">
-                Felipe <span className="text-accent">Tiepo</span>
+                Felipe Tiepo<span className="text-accent">.</span>
             </h1>
         </Link>
 
@@ -19,7 +19,7 @@ const Header = () => {
         <div className="hidden xl:flex items-center gap-8">
         <Nav />
         <Link href="/contact">
-            <Button>Hire me</Button>
+            <Button>Contratar</Button>
         </Link>
         </div>
 
