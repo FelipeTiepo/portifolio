@@ -11,7 +11,7 @@ import {
   FaFigma
 } from "react-icons/fa"
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si"
+import { SiTailwindcss, SiNextdotjs, SiSpring, SiOracle } from "react-icons/si"
 
 //about data
 const about = {
@@ -202,6 +202,14 @@ const skills = {
     {
       icon: <FaSass />,
       name: "SASS"
+    },
+    {
+      icon: <SiSpring />,
+      name: "Spring"
+    },
+    {
+      icon: <SiOracle />,
+      name: "Oracle"
     },
     {
       icon: <FaFigma />,
