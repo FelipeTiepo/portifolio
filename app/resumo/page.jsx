@@ -16,7 +16,8 @@ import { SiTailwindcss, SiNextdotjs, SiSpring, SiOracle } from "react-icons/si"
 //about data
 const about = {
   title: "Sobre mim",
-  description: "Desde que entrei no mundo da programação, tenho dedicado cada dia ao estudo e aprimoramento, ansioso pela minha primeira grande oportunidade. Ao longo dos últimos três anos, venho construindo e executando uma variedade de projetos para empresas como freelancer, com o objetivo de aprender e me desenvolver na área. Estou confiante de que estou pronto para contribuir de forma significativa à sua equipe de programadores, trazendo minha paixão e experiência para impulsionar os projetos e alcançar os objetivos em conjunto. Atualmente cursando o 6º semestre de Sistemas da Informação na FIAP, com disponibilidade para estágio e integral dentro da área de tecnologia.",
+  description: "Desde que entrei no mundo da programação, tenho dedicado cada dia ao estudo e aprimoramento, ansioso pela minha primeira grande oportunidade. Ao longo dos últimos três anos, venho construindo e executando uma variedade de projetos para empresas como freelancer, com o objetivo de aprender e me desenvolver na área.",
+  description2: "Atualmente cursando o 6º semestre de Sistemas da Informação na FIAP, com disponibilidade para estágio e integral dentro da área de tecnologia.",
   info: [
     {
       fieldName: "Nome",
@@ -56,7 +57,7 @@ const about = {
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "Minha experiência",
-  description: "Empresas que já trabalhei e ganhei experiência.",
+  description: "Empresas que já trabalhei que adquiri connhecimento e experiência.",
   items: [
     {
       company: "Empresas",
@@ -334,6 +335,7 @@ const Resumo = () => {
             <div className="flex flex-col gap-[30px]">
               <h3 className="text-4xl font-bold">{about.title}</h3>
               <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
+              <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description2}</p>
               <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
                 {about.info.map((item, index) => {
                   return (

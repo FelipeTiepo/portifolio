@@ -18,7 +18,7 @@ export default function Inicio() {
               Olá, Eu sou <br /><span className="text-accent">Felipe Tiepo</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80 ">
-              Eu crio elegantes sites digitais e eu sou proficiente em várias linguagens de programação e tecnologias.</p>
+              Crio elegantes sites digitais e variadas aplicações, sou proficiente em várias linguagens de programação e tecnologias.</p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
@@ -26,7 +26,7 @@ export default function Inicio() {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>Baixar CV</span>
+                <a href="/assets/CV-Felipe-Tiepo.pdf" download>Baixar CV</a>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">
